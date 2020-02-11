@@ -13,4 +13,4 @@ for(var i=0;i< section_length;i++){
 var column_max_height = Math.max.apply(Math,column_height_array);   
 
 //Add maximum height css in each column 
-jQuery('ul.e-table-list').css('height',column_max_height+'px');
+jQuery('.column').css('height',column_max_height+'px');
